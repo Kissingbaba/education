@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* general styles */
 * {
@@ -9,7 +9,7 @@
   outline: none;
   list-style: none;
   /* font-family: "Roboto Flex", serif; */
-  font-family: sans-serif;
+  font-family: "Montserrat", serif;
 }
 
 :root {
@@ -273,4 +273,107 @@ header {
 .course__image img {
   height: 100%;
   border-radius: 15px;
+}
+
+.faqs {
+  background: var(--color-bg1);
+  box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+.faqs__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.faq {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  height: fit-content;
+  background: var(--color-primary);
+  cursor: pointer;
+}
+
+.faq h4 {
+  font-size: 1rem;
+  line-height: 2.2;
+}
+.faq__icon {
+  align-self: flex-start;
+  font-size: 1.2rem;
+}
+.faq p {
+  margin-top: 0.8rem;
+  display: none;
+}
+.faq.open p {
+  display: block;
+}
+
+.testimonial__container {
+  overflow-x: hidden;
+  position: relative;
+  margin-bottom: 5rem;
+
+  /* width: 100%;
+  height: 100%; */
+}
+
+.testimonials {
+  padding-top: 2rem;
+}
+
+.fatou {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1rem;
+  border: 1rem solid var(--color-bg1);
+}
+.testimonial__info {
+  text-align: center;
+}
+.testimonial__body {
+  background: var(--color-primary);
+  padding: 2rem;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.testimonial__body::before {
+  content: "";
+  display: block;
+  background: linear-gradient(
+    135deg,
+    transparent,
+    var(--color-primary),
+    var(--color-primary),
+    var(--color-primary)
+  );
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  transform: rotate(45deg);
+}
+
+footer {
+  background: var(--color-bg1);
+  padding-top: 5rem;
+  font-size: 0.9rem;
+}
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+}
+
+.footer__container > div h4 {
+  margin-bottom: 1.2rem;
+}
+
+.footer__1 p {
+  margin: 1rem 0 2rem;
 }
