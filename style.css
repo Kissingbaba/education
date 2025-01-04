@@ -522,13 +522,13 @@ footer {
   .header__left p {
     margin-bottom: 1rem;
   }
-
+  /* 
   .header__left .btn {
     display: none;
-  }
-  .btn__small-devices {
-    display: block;
-  }
+  } */
+  /* .btn__small-devices {
+    display: flex;
+  } */
 
   .categories__right {
     grid-template-columns: 1fr 1fr;
