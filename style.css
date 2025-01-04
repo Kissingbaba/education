@@ -154,7 +154,9 @@ header {
   gap: 5rem;
   height: 100%;
 }
-
+.btn__small-devices {
+  display: none;
+}
 .header__left p {
   margin: 1rem 0 2.4rem;
 }
@@ -518,11 +520,14 @@ footer {
     margin-top: 0;
   }
   .header__left p {
-    margin-bottom: 4.3rem;
+    margin-bottom: 1rem;
   }
 
   .header__left .btn {
-    margin-bottom: 1rem;
+    display: none;
+  }
+  .btn__small-devices {
+    display: block;
   }
 
   .categories__right {
