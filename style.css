@@ -521,6 +521,10 @@ footer {
     margin-bottom: 4.3rem;
   }
 
+  .header__left .btn {
+    margin-bottom: 1rem;
+  }
+
   .categories__right {
     grid-template-columns: 1fr 1fr;
   }
