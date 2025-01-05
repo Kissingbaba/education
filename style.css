@@ -84,8 +84,9 @@ img {
   font-weight: 500;
   border: 1px solid transparent;
   transition: var(--transition);
+  border-radius: 5px;
 }
-btn:hover {
+.btn:hover {
   background: transparent;
   color: var(--color-white);
   border-color: var(--color-white);
@@ -333,6 +334,11 @@ header {
   overflow: hidden;
   margin: 0 auto 1rem;
   border: 1rem solid var(--color-bg1);
+}
+.fatou img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 .testimonial__info {
   text-align: center;
