@@ -41,6 +41,10 @@
 .founder {
   margin-top: 10rem;
 }
+.founder__name {
+  display: none;
+  text-align: center;
+}
 .info {
   margin: 3rem 0;
 }
@@ -173,5 +177,8 @@
 
   .team__member p {
     margin-bottom: 1.5rem;
+  }
+  .founder__name {
+    display: block;
   }
 }
