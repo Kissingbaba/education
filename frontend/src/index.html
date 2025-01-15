@@ -131,49 +131,9 @@
     <!-- start of courses section -->
     <section class="courses">
       <h2>Our Popular Courses</h2>
-      <div class="container courses__container">
-        <article class="course">
-          <div class="course__image">
-            <img src="images/2.jpg" alt="" />
-          </div>
-          <div class="course__info">
-            <h4>Fiqh Knowledge</h4>
-            <p>
-              Fiqh is an Islamic legal system that provides Muslims with
-              guidance on how to practice their religion and live a good life.
-            </p>
-            <a href="" class="btn btn-primary">Learn More</a>
-          </div>
-        </article>
-        <article class="course">
-          <div class="course__image">
-            <img src="images/14.jpg" alt="" />
-          </div>
-          <div class="course__info">
-            <h4>Tawheed Principles</h4>
-            <p>
-              Tawhid is a fundamental tenet of Islam, and is the basis for the
-              Muslim profession of submission. It is also a central concept in
-              Islamic theology and philosophy.
-            </p>
-            <a href="" class="btn btn-primary">Learn More</a>
-          </div>
-        </article>
-        <article class="course">
-          <div class="course__image">
-            <img src="images/6.jpg" alt="" />
-          </div>
-          <div class="course__info">
-            <h4>Tajweed Principles</h4>
-            <p>
-              Tajweed is the art and science of reciting the Quran with the
-              correct pronunciation, rhythm, and intonation. It's a crucial part
-              of learning and reciting the Quran for Muslims.
-            </p>
-            <a href="" class="btn btn-primary">Learn More</a>
-          </div>
-        </article>
-      </div>
+      <main id="js__courses">
+        <div class="container courses__container"></div>
+      </main>
     </section>
     <!-- end of courses section -->
 
@@ -378,7 +338,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="main.js"></script>
+    <script type="module" src="main.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,

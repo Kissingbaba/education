@@ -1,3 +1,5 @@
+import HomeScreen from "./screen/HomeScreen.js";
+
 window.addEventListener("scroll", () => {
   document
     .querySelector("nav")
@@ -35,3 +37,12 @@ const closeNav = () => {
 };
 
 closeBtn.addEventListener("click", closeNav);
+
+// Popular course
+const router = () => {
+  const courses__container = document.getElementById("js__courses");
+  courses__container.innerHTML = HomeScreen.render();
+};
+
+window.addEventListener("load", router);
+//  end of popular course
