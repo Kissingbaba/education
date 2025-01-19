@@ -26,6 +26,7 @@ export const popularCourse = {
 
 // end of popular course
 
+// start of freqently asked questions
 export const faqSect = {
   faq: [
     {
@@ -35,3 +36,5 @@ export const faqSect = {
     },
   ],
 };
+
+// end of frequently asked questions

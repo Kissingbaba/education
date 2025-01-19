@@ -1,6 +1,8 @@
 // import data from "../popularCourse.js";
 import { popularCourse } from "../data.js";
 import { faqSect } from "../data.js";
+
+// popular courses
 export const HomeScreen = {
   render: () => {
     const { popular } = popularCourse;
@@ -29,8 +31,9 @@ export const HomeScreen = {
   },
 };
 
-// export default HomeScreen;
+// end of popular courses
 
+// start of frequently asked questions
 export const faqScreen = {
   render: () => {
     const { faq } = faqSect;
@@ -54,3 +57,5 @@ export const faqScreen = {
     `;
   },
 };
+
+// end of frequently asked question
