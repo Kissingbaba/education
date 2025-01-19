@@ -1,5 +1,6 @@
-import HomeScreen from "./screen/HomeScreen.js";
-
+import { HomeScreen } from "./screen/HomeScreen.js";
+import { faqScreen } from "./screen/HomeScreen.js";
+// screen();
 window.addEventListener("scroll", () => {
   document
     .querySelector("nav")
@@ -46,3 +47,10 @@ const router = () => {
 
 window.addEventListener("load", router);
 //  end of popular course
+
+const freq = () => {
+  const faqs__container = document.getElementById("js__faq-container");
+  faqs__container.innerHTML = faqScreen.render();
+};
+
+window.addEventListener("load", freq);

@@ -1,5 +1,4 @@
-// Popular courses
-export default {
+export const popularCourse = {
   popular: [
     {
       _id: "1",
@@ -26,3 +25,13 @@ export default {
 };
 
 // end of popular course
+
+export const faqSect = {
+  faq: [
+    {
+      question: "Can I memorize Quran by myself",
+      detail:
+        " Yes, you can memorize the Quran by yourself, but it may be helpful to involve others or work with a teacher.",
+    },
+  ],
+};

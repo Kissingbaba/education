@@ -123,6 +123,16 @@ nav {
   align-items: center;
 }
 
+.logo {
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--color-primary);
+}
+
+.logo img {
+  border-radius: 50%;
+  width: 100%;
+}
 nav button {
   display: none;
   border: none;
