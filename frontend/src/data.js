@@ -7,6 +7,7 @@ export const popularCourse = {
       detail:
         " Fiqh is an Islamic legal system that provides Muslims with guidance on how to practice their religion and live a good life",
     },
+
     {
       _id: "1",
       image: "images/14.jpg",
