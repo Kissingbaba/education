@@ -38,7 +38,6 @@ export const faqScreen = {
   render: () => {
     const { faq } = faqSect;
     return `
-    <div class="container faqs__container">
     ${faq
       .map(
         (ask) => ` 

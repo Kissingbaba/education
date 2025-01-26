@@ -16,7 +16,7 @@
   --transition: all 400ms ease;
 }
 .about__achievements {
-  margin-top: 3rem;
+  margin-top: 8rem;
 }
 .about__achievements-container {
   display: grid;
@@ -40,6 +40,8 @@
 
 .founder {
   margin-top: 10rem;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
 }
 .founder__name {
   display: none;
@@ -142,7 +144,7 @@
 
 @media screen and (max-width: 1024px) {
   .about__achievements {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
   .about__achievements-container {
     grid-template-columns: 1fr;
@@ -151,8 +153,12 @@
   .about__achievements-left {
     width: 80%;
     margin: 0 auto;
+    display: none;
   }
 
+  .founder__1 {
+    display: none;
+  }
   .team__container {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;

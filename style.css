@@ -11,6 +11,9 @@
   /* font-family: "Roboto Flex", serif; */
   font-family: "Montserrat", serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 :root {
   --color-primary: #6c63ff;
@@ -96,6 +99,35 @@ img {
   color: var(--color-white);
 }
 
+.btn__big {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+#get {
+  background: #00bf8e;
+}
+
+#get:hover {
+  background: transparent;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
 /* end of general styles */
 
 /* navbar styles */
@@ -293,18 +325,24 @@ header {
 .faqs {
   background: var(--color-bg1);
   box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .faqs__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  width: auto;
   gap: 1rem;
 }
 .faq {
   padding: 2rem;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1.4rem;
   height: fit-content;
+
   background: var(--color-primary);
   cursor: pointer;
 }
@@ -329,7 +367,7 @@ header {
   overflow-x: hidden;
   position: relative;
   margin-bottom: 5rem;
-
+  margin-top: 1rem;
   /* width: 100%;
   height: 100%; */
 }

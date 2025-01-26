@@ -22,6 +22,55 @@ export const popularCourse = {
       detail:
         " Tajweed is the art and science of reciting the Quran with the correct pronunciation, rhythm, and intonation. It's a crucial part of learning and reciting the Quran for Muslims",
     },
+    {
+      _id: "1",
+      image: "images/6.jpg",
+      name: "Tajweed Knowledge",
+      detail:
+        " Tajweed is the art and science of reciting the Quran with the correct pronunciation, rhythm, and intonation. It's a crucial part of learning and reciting the Quran for Muslims",
+    },
+    {
+      _id: "1",
+      image: "images/6.jpg",
+      name: "Tajweed Knowledge",
+      detail:
+        " Tajweed is the art and science of reciting the Quran with the correct pronunciation, rhythm, and intonation. It's a crucial part of learning and reciting the Quran for Muslims",
+    },
+    {
+      _id: "1",
+      image: "images/6.jpg",
+      name: "Tajweed Knowledge",
+      detail:
+        " Tajweed is the art and science of reciting the Quran with the correct pronunciation, rhythm, and intonation. It's a crucial part of learning and reciting the Quran for Muslims",
+    },
+    {
+      _id: "1",
+      image: "images/6.jpg",
+      name: "Tajweed Knowledge",
+      detail:
+        " Tajweed is the art and science of reciting the Quran with the correct pronunciation, rhythm, and intonation. It's a crucial part of learning and reciting the Quran for Muslims",
+    },
+    {
+      _id: "1",
+      image: "images/6.jpg",
+      name: "Tajweed Knowledge",
+      detail:
+        " Tajweed is the art and science of reciting the Quran with the correct pronunciation, rhythm, and intonation. It's a crucial part of learning and reciting the Quran for Muslims",
+    },
+    {
+      _id: "1",
+      image: "images/6.jpg",
+      name: "Tajweed Knowledge",
+      detail:
+        " Tajweed is the art and science of reciting the Quran with the correct pronunciation, rhythm, and intonation. It's a crucial part of learning and reciting the Quran for Muslims",
+    },
+    {
+      _id: "1",
+      image: "images/6.jpg",
+      name: "Tajweed Knowledge",
+      detail:
+        " Tajweed is the art and science of reciting the Quran with the correct pronunciation, rhythm, and intonation. It's a crucial part of learning and reciting the Quran for Muslims",
+    },
   ],
 };
 
@@ -30,6 +79,46 @@ export const popularCourse = {
 // start of freqently asked questions
 export const faqSect = {
   faq: [
+    {
+      question: "Can I memorize Quran by myself",
+      detail:
+        " Yes, you can memorize the Quran by yourself, but it may be helpful to involve others or work with a teacher.",
+    },
+    {
+      question: "Can I memorize Quran by myself",
+      detail:
+        " Yes, you can memorize the Quran by yourself, but it may be helpful to involve others or work with a teacher.",
+    },
+    {
+      question: "Can I memorize Quran by myself",
+      detail:
+        " Yes, you can memorize the Quran by yourself, but it may be helpful to involve others or work with a teacher.",
+    },
+    {
+      question: "Can I memorize Quran by myself",
+      detail:
+        " Yes, you can memorize the Quran by yourself, but it may be helpful to involve others or work with a teacher.",
+    },
+    {
+      question: "Can I memorize Quran by myself",
+      detail:
+        " Yes, you can memorize the Quran by yourself, but it may be helpful to involve others or work with a teacher.",
+    },
+    {
+      question: "Can I memorize Quran by myself",
+      detail:
+        " Yes, you can memorize the Quran by yourself, but it may be helpful to involve others or work with a teacher.",
+    },
+    {
+      question: "Can I memorize Quran by myself",
+      detail:
+        " Yes, you can memorize the Quran by yourself, but it may be helpful to involve others or work with a teacher.",
+    },
+    {
+      question: "Can I memorize Quran by myself",
+      detail:
+        " Yes, you can memorize the Quran by yourself, but it may be helpful to involve others or work with a teacher.",
+    },
     {
       question: "Can I memorize Quran by myself",
       detail:
