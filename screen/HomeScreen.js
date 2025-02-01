@@ -34,27 +34,19 @@ export const HomeScreen = {
 // end of popular courses
 
 // start of frequently asked questions
-export const faqScreen = {
-  render: () => {
-    const { faq } = faqSect;
-    return `
-    ${faq
-      .map(
-        (ask) => ` 
-          <article class="faq">
-          <div class="faq__icon"><i class="fa fa-plus"></i></div>
-          <div class="question__answer">
-            <h4>${ask.question}</h4>
-            <p>
-              ${ask.detail}
-            </p>
-          </div>
-        </article>
-      `
-      )
-      .join("\n")}
-    `;
-  },
-};
+// export const faqScreen = {
+//   render: () => {
+//     const { faq } = faqSect;
+//     return `
+//     ${faq
+//       .map(
+//         (ask) => `
+
+//       `
+//       )
+//       .join("\n")}
+//     `;
+//   },
+// };
 
 // end of frequently asked question

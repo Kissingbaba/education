@@ -1,5 +1,5 @@
 import { HomeScreen } from "./screen/HomeScreen.js";
-import { faqScreen } from "./screen/HomeScreen.js";
+// import { faqScreen } from "./screen/HomeScreen.js";
 // screen();
 window.addEventListener("scroll", () => {
   document
@@ -34,10 +34,10 @@ const router = () => {
 window.addEventListener("load", router);
 //  end of popular course
 
-const freq = () => {
-  const faqs__container = document.getElementById("js__faq-container");
-  faqs__container.innerHTML = faqScreen.render();
-};
+// const freq = () => {
+//   const faqs__container = document.getElementById("js__faq-container");
+//   faqs__container.innerHTML = faqScreen.render();
+// };
 
 const faqs = document.querySelectorAll(".faq");
 faqs.forEach((faq) => {
@@ -53,4 +53,4 @@ faqs.forEach((faq) => {
   });
 });
 
-window.addEventListener("load", freq);
+// window.addEventListener("load", freq);
